@@ -1,0 +1,11 @@
+[flake8]
+exclude =
+    .git,
+    .gitignore,
+    .flake8,
+    .env,
+    poetry.lock,
+    pyproject.toml,
+    README.md,
+    __init__.py
+max-line-length = 79
