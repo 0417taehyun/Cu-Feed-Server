@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "cu-feed-server"
+version = "0"
+description = "Find and Share your Curation on Feed to Fit like the Cupid, Cu-Feed"
+authors = ["Taehyun Lee <0417taehyun@gmail.com>"]
+license = "Apache 2.0"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
